@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fff; /* Background color to match the image */
+}
+
+.box1 {
+  height: 70px;
+  background-color: #ffc507;
+  align-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(0, 158, 8);
+  width: 150px;
+  margin: 0px 0px 20px 0px;
+  outline: 6px #fbff07;
+  outline-style: solid;
+}
+.text {
+  color: #fffdfd;
+  text-align: center;
+}
+.box2 {
+  height: 70px;
+  background-color: #2f8673;
+  align-content: center;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgb(227, 252, 0);
+  width: 150px;
+  outline: 6px #000000;
+  outline-style: solid;
+}
