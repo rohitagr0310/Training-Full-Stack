@@ -104,7 +104,7 @@ p {
   margin: 100px auto;
   width: 40%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(../Practice/company.jpg);
+    url(./assets/business-women-signature-document_1388-90.avif);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
@@ -121,7 +121,7 @@ p {
   margin: 100px auto;
   width: 80%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url(../Practice/company.jpg);
+    url(./assets/business-women-signature-document_1388-90.avif);
   background-position: center;
   background-size: cover;
   border-radius: 10px;
