@@ -1,0 +1,168 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h2,
+h3 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+/* Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #6a5acd;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links li a {
+  font-size: 16px;
+}
+
+.btn-get-started {
+  background-color: #6a5acd;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 35px;
+}
+
+/* Hero Section Styles */
+.hero {
+  width: 100%;
+  height: 400px;
+  background-color: #ececec;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Team Section Styles */
+.team {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: transparent #f8f9fa;
+}
+
+.team-title {
+  margin-top: 0%;
+  padding-top: 0;
+  font-size: 25px;
+  color: rgb(58, 58, 255);
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+
+.team-member {
+  width: 20%;
+}
+
+.team-member img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* About Section Styles */
+.about {
+  padding: 50px 20px;
+}
+
+.experience-box {
+  margin: 100px auto;
+  width: 40%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./assets/business-women-signature-document_1388-90.avif);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 100px 0;
+  transition: 0.5s;
+}
+.experience-box h1 {
+  color: #fff;
+  margin-bottom: 40px;
+  padding: 0;
+}
+.experience-box:hover {
+  margin: 100px auto;
+  width: 80%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(./assets/business-women-signature-document_1388-90.avif);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  padding: 100px 0;
+  box-shadow: 10px 10px 24px 0px rgba(0, 0, 0, 0.664);
+}
+.experience-box {
+  margin: 100px auto;
+  width: 60%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../Practice/company.jpg);
+  background-position: center;
+  background-size: cover;
+  border-radius: 10px;
+  text-align: center;
+  padding: 60px 0;
+  transition: 0.5s;
+}
+
+.stats {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.stat {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin: 0px;
+}
+
+.stat h2 {
+  font-size: 24px;
+  color: #6a5acd;
+  margin: 5px;
+}
+
+.stat p {
+  color: #777;
+  margin: 5px;
+}
