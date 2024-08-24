@@ -1,8 +1,8 @@
 const prompt = require("prompt-sync")();
 
-const jobType = prompt(
-  "Enter your job type (government/business/private): "
-).toLowerCase();
+const jobType = prompt("Enter your job type (government/business/private): ");
+
+jobType = jobType.toLowerCase();
 
 if (jobType === "government") {
   const salary = parseFloat(prompt("Enter your salary: "));
