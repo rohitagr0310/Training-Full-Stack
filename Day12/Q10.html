@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Display Current Time</title>
+  </head>
+  <body>
+    <p id="currentTime"></p>
+
+    <script>
+      function updateTime() {
+        const now = new Date();
+        const timeString = now.toLocaleTimeString();
+        document.getElementById("currentTime").textContent = timeString;
+      }
+
+      setInterval(updateTime, 1000); // Update the time every second
+      updateTime(); // Initial call to display the time immediately
+    </script>
+  </body>
+</html>

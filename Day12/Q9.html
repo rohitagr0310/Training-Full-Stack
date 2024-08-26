@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>innerHTML vs textContent</title>
+  </head>
+  <body>
+    <div id="contentDiv">
+      <strong>Hello</strong>, this is some <em>formatted</em> text.
+    </div>
+    <button onclick="showInnerHTML()">Show innerHTML</button>
+    <button onclick="showTextContent()">Show textContent</button>
+
+    <p id="result"></p>
+
+    <script>
+      function showInnerHTML() {
+        const content = document.getElementById("contentDiv").innerHTML;
+        document.getElementById("result").textContent = "innerHTML: " + content;
+      }
+
+      function showTextContent() {
+        const content = document.getElementById("contentDiv").textContent;
+        document.getElementById("result").textContent =
+          "textContent: " + content;
+      }
+    </script>
+  </body>
+</html>
